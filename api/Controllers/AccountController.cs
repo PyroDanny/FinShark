@@ -41,7 +41,7 @@ namespace api.Controllers
 
             if(!result.Succeeded)
             {
-                return Unauthorized("Username or password is incorrect/not found!");
+                return Unauthorized("Username or password is not found/incorrect!");
             }
 
             return Ok(
